@@ -2,9 +2,10 @@
   max-width: 600px;
   margin: auto;
   padding: 2rem;
+  background-image: url("file:///sandbox/Images/Wallpaper.png");
 }
 
 body {
-  font-family: "Lato", sans-serif;
-  background-color: #efefef;
+  background-color: #111827;
+  color: white;
 }
