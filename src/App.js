@@ -8,21 +8,24 @@ const toolsDB = {
       name: "Colorhunt",
       description:
         "It is an open collection of beautiful color palettes, created by Gal Shir. Used to share trendy color combinations.",
-      url: "https://colorhunt.co/"
+      url: "https://colorhunt.co/",
+      rating: "5/5"
     },
 
     {
       name: "CanvaColors",
       description:
         "Using CanvaColors you can pick colors from a images, generate your own pallete and so on.",
-      url: "https://www.canva.com/colors/color-palette-generator/"
+      url: "https://www.canva.com/colors/color-palette-generator/",
+      rating: "4/5"
     },
 
     {
       name: "Coolors",
       description:
         "Using this you can make color palletes,browser free pallete templates and much more!!",
-      url: "https://coolors.co/"
+      url: "https://coolors.co/",
+      rating: "5/5"
     }
   ],
 
@@ -31,28 +34,32 @@ const toolsDB = {
       name: "GeeksforGeeks",
       description:
         "Contains content about all stuffs related to programming, placements and so on ",
-      url: "https://www.geeksforgeeks.org/"
+      url: "https://www.geeksforgeeks.org/",
+      rating: "5/5"
     },
 
     {
       name: "W3school",
       description:
         "Its like a source where you can find all the components of a code, starting from syntax to the code!",
-      url: "https://www.w3schools.com/"
+      url: "https://www.w3schools.com/",
+      rating: "5/5"
     },
 
     {
       name: "Tutorialspoint",
       description:
         "Its similary to that of W3schools but it has more theorotical concepts.",
-      url: "https://www.tutorialspoint.com/index.htm"
+      url: "https://www.tutorialspoint.com/index.htm",
+      rating: "5/5"
     },
 
     {
       name: "StackOverFlow",
       description:
         "Here people ask and get their doubts. Its very rare that your doubt is never been asked before.",
-      url: "https://stackoverflow.com/"
+      url: "https://stackoverflow.com/",
+      rating: "5/5"
     }
   ],
 
@@ -61,28 +68,32 @@ const toolsDB = {
       name: "EyeDropper",
       description:
         "You can pick any color on current webpage and save it to your clipboard and color history and copy the color code.",
-      url: "https://eyedropper.org/"
+      url: "https://eyedropper.org/",
+      rating: "5/5"
     },
 
     {
       name: "Workona",
       description:
         "Its one of the best extentions to manage and save your tabs and bookmarks!",
-      url: "https://workona.com/"
+      url: "https://workona.com/",
+      rating: "5/5"
     },
 
     {
       name: "Grammarly",
       description:
         "Well who wants to create a bad impressions through spelling mistakes! This is your go to extension to keep a check on your text.",
-      url: "https://www.grammarly.com/"
+      url: "https://www.grammarly.com/",
+      rating: "5/5"
     },
 
     {
       name: "Natural Reader Text to Speech",
       description:
         " Reading long documents can be overwhelming after a long session of screen time. This extensions helps you to understand the docs by reading the text out loud!",
-      url: "https://www.naturalreaders.com/online/"
+      url: "https://www.naturalreaders.com/online/",
+      rating: "5/5"
     }
   ]
 };
@@ -139,6 +150,7 @@ export default function App() {
                 </a>
               </div>
               <div style={{ fontWeight: "lighter" }}> {tools.description} </div>
+              <div style={{ fontWeight: "lighter" }}> {tools.rating} </div>
             </li>
           ))}
         </ul>
